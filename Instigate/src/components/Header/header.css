@@ -1,0 +1,26 @@
+.stHeader{
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 0%;
+    display: flex;
+    justify-content:space-between;
+    background-image: linear-gradient(to right bottom,red,red, blue,orange,orange);
+}
+.stHeaderLeft{
+    display: flex;
+}
+.stHeaderLeft  span{
+    background-image: url("sun.png");
+    padding: 0% 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.stHeaderLeft h3 {
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 16px;
+}
+.stHeaderRight {
+    margin: 1%;
+}

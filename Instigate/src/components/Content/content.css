@@ -1,0 +1,38 @@
+.infoWeather{
+    margin: 0 auto;
+    text-align: center;
+    padding: 6%;
+    background-attachment: fixed;
+    min-height: 360px;
+    background-image: url("4K-UHD-Background.jpg");
+    background-size: cover;
+}
+.infoWeather .textInfo {
+    margin: 0 auto;
+    width: 25%;
+    background-image: linear-gradient(to right bottom,red,red, blue,orange,orange);
+    height: auto;
+    border: 3px solid blue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: cursive;
+    color: white;
+}
+.infoWeather .buttonInfo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8%;
+    flex-direction: column;
+}
+.infoWeather .buttonInfo div {
+    display: flex;
+    justify-content: center;
+}
+.infoWeather .buttonInfo div   button{
+    margin: 0 3%;
+    padding: 1%;
+    background-color: rebeccapurple;
+    border-radius: 19px;
+    color: white;
+}
